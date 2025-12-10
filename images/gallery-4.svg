@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" rx="10" fill="#F5F5F5"/>
+  <rect x="40" y="40" width="720" height="520" rx="10" fill="#0F4251" opacity="0.12" stroke="#0F4251" stroke-width="2" stroke-dasharray="12 10"/>
+  <text x="400" y="310" text-anchor="middle" fill="#0F4251" font-family="Manrope, Arial" font-size="32" font-weight="600">Projekt placeholder 4</text>
+</svg>
