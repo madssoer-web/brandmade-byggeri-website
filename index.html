@@ -10,102 +10,142 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <nav class="top-nav">
-            <div class="container nav-inner">
-                <div class="brand">
-                    <span class="brand-name">Brandmade Byggeri</span>
-                    <span class="brand-tagline">Totalentrepriser i Storkøbenhavn</span>
-                </div>
+    <nav class="top-nav">
+        <div class="container nav-inner">
+            <div class="brand-group">
+                <span class="brand-name">Brandmade Byggeri</span>
+                <span class="brand-tagline">Totalentrepriser i Storkøbenhavn</span>
             </div>
-        </nav>
-        <div class="container hero-content">
+            <div class="nav-actions">
+                <span class="nav-phone">+45 XX XX XX XX</span>
+                <a class="cta primary" href="#kontakt">Få et uforpligtende tilbud</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
             <div class="hero-text">
-                <h1>Brandmade Byggeri</h1>
-                <p>Totalentrepriser i Storkøbenhavn</p>
+                <p class="eyebrow">Entrepriser med ro i maven</p>
+                <h1 id="hero-title">Brandmade Byggeri</h1>
+                <p class="subtitle">Totalentrepriser i Storkøbenhavn</p>
+                <p class="lead">Vi skaber gennemtænkte løsninger, klare processer og trygge forløb – fra første møde til afleveret resultat.</p>
                 <div class="hero-actions">
                     <a class="cta primary" href="#kontakt">Få et uforpligtende tilbud</a>
                     <a class="cta ghost" href="#gallery">Se projekter</a>
                 </div>
             </div>
+            <div class="hero-media" role="presentation">
+                <img src="images/hero-placeholder.svg" alt="Eksempel på entreprisearbejde">
+            </div>
         </div>
     </header>
 
+    <section class="section trust" aria-labelledby="trust-title">
+        <div class="container trust-grid">
+            <article class="trust-item">
+                <div class="trust-icon" aria-hidden="true"></div>
+                <div>
+                    <h3 id="trust-title">Fagfolk med erfaring</h3>
+                    <p>Projektledelse og håndværk baseret på gennemprøvede processer.</p>
+                </div>
+            </article>
+            <article class="trust-item">
+                <div class="trust-icon" aria-hidden="true"></div>
+                <div>
+                    <h3>Konkurrencedygtige priser</h3>
+                    <p>Klar økonomi fra start, så du ved hvad investeringen dækker.</p>
+                </div>
+            </article>
+            <article class="trust-item">
+                <div class="trust-icon" aria-hidden="true"></div>
+                <div>
+                    <h3>Faste aftaler og tydelig projektstyring</h3>
+                    <p>Status, milepæle og én kontaktperson gennem hele forløbet.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
     <main>
-        <section class="section trust" aria-labelledby="trust-title">
+        <section class="section services" aria-labelledby="services-title">
             <div class="container">
                 <div class="section-header">
-                    <h2 id="trust-title">Det kan du forvente</h2>
-                    <p>Gennemtænkte processer, klare aftaler og resultater der holder.</p>
+                    <p class="eyebrow">Ydelser</p>
+                    <h2 id="services-title">Vores ydelser</h2>
+                    <p>Komplette løsninger, leveret med struktur og håndværksstolthed.</p>
                 </div>
-                <div class="cards three">
-                    <article class="card trust-card">
-                        <div class="card-icon" aria-hidden="true"></div>
-                        <div class="card-body">
-                            <h3>Hurtig opstart</h3>
-                            <p>Vi prioriterer klar kommunikation og en effektiv tidsplan fra første dag.</p>
-                        </div>
+                <div class="cards three service-grid">
+                    <article class="card service-card">
+                        <div class="service-media" aria-hidden="true"></div>
+                        <h3>Totalrenoveringer</h3>
+                        <p>Vi tager ansvar for hele processen – fra nedrivning til færdigt resultat. Én samlet løsning.</p>
+                        <a class="text-link" href="#kontakt">Få et tilbud</a>
                     </article>
-                    <article class="card trust-card">
-                        <div class="card-icon" aria-hidden="true"></div>
-                        <div class="card-body">
-                            <h3>Konkurrencedygtige priser</h3>
-                            <p>Transparent prissætning med fokus på værdi for pengene.</p>
-                        </div>
+                    <article class="card service-card">
+                        <div class="service-media" aria-hidden="true"></div>
+                        <h3>Badeværelser</h3>
+                        <p>Speciale i komplette badeværelsesrenoveringer. Korrekt udført arbejde i høj kvalitet.</p>
+                        <a class="text-link" href="#kontakt">Få et tilbud</a>
                     </article>
-                    <article class="card trust-card">
-                        <div class="card-icon" aria-hidden="true"></div>
-                        <div class="card-body">
-                            <h3>Faste aftaler og tydelig projektstyring</h3>
-                            <p>Du får løbende status og klare milepæle – uden overraskelser.</p>
-                        </div>
+                    <article class="card service-card">
+                        <div class="service-media" aria-hidden="true"></div>
+                        <h3>Tilbygninger</h3>
+                        <p>Tilbygninger i høj kvalitet – udvidelser, ekstra plads og modernisering af hjemmet.</p>
+                        <a class="text-link" href="#kontakt">Få et tilbud</a>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="section services" aria-labelledby="services-title">
-            <div class="container">
-                <div class="section-header">
-                    <h2 id="services-title">Services</h2>
-                    <p>Komplette løsninger, leveret med struktur og håndværksstolthed.</p>
+        <section class="section why" aria-labelledby="why-title">
+            <div class="container why-grid">
+                <div class="why-text">
+                    <p class="eyebrow">Forløb</p>
+                    <h2 id="why-title">Derfor skal du vælge Brandmade Byggeri</h2>
+                    <p>Brandmade Byggeri udfører totalentrepriser og renoveringer i Storkøbenhavn. Vi arbejder præcist, effektivt og med stor respekt for vores kunders hjem og økonomi. Vores mål er at levere håndværk, du kan være tryg ved.</p>
+                    <ul class="why-list">
+                        <li>Gennemtænkt planlægning fra start til slut</li>
+                        <li>Transparent dialog om tid, pris og forventninger</li>
+                        <li>En partner, der tager ansvar for detaljerne</li>
+                    </ul>
                 </div>
-                <div class="cards three">
-                    <article class="card service-card">
-                        <div class="card-accent"></div>
-                        <h3>Totalrenoveringer</h3>
-                        <p>Vi tager ansvar for hele processen – fra nedrivning til færdigt resultat. Én samlet løsning.</p>
-                        <a class="text-link" href="#kontakt">Læs mere</a>
-                    </article>
-                    <article class="card service-card">
-                        <div class="card-accent"></div>
-                        <h3>Badeværelser</h3>
-                        <p>Speciale i komplette badeværelsesrenoveringer. Korrekt udført arbejde i høj kvalitet.</p>
-                        <a class="text-link" href="#kontakt">Læs mere</a>
-                    </article>
-                    <article class="card service-card">
-                        <div class="card-accent"></div>
-                        <h3>Tilbygninger</h3>
-                        <p>Tilbygninger i høj kvalitet – udvidelser, ekstra plads og modernisering af hjemmet.</p>
-                        <a class="text-link" href="#kontakt">Læs mere</a>
-                    </article>
-                </div>
+                <div class="why-visual" role="img" aria-label="Team placeholder"></div>
             </div>
         </section>
 
         <section class="section gallery" aria-labelledby="gallery-title">
             <div class="container">
                 <div class="section-header">
+                    <p class="eyebrow">Referencer</p>
                     <h2 id="gallery-title">Udvalgte projekter</h2>
                     <p>Et udvalg af projekter, der viser vores tilgang til kvalitet og detaljer.</p>
                 </div>
                 <div class="gallery-grid" id="gallery">
-                    <img src="images/gallery-1.svg" alt="Placeholder projekt 1">
-                    <img src="images/gallery-2.svg" alt="Placeholder projekt 2">
-                    <img src="images/gallery-3.svg" alt="Placeholder projekt 3">
-                    <img src="images/gallery-4.svg" alt="Placeholder projekt 4">
-                    <img src="images/gallery-5.svg" alt="Placeholder projekt 5">
-                    <img src="images/gallery-6.svg" alt="Placeholder projekt 6">
+                    <figure>
+                        <img src="images/gallery-1.svg" alt="Placeholder projekt 1">
+                        <figcaption>Totalrenovering</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/gallery-2.svg" alt="Placeholder projekt 2">
+                        <figcaption>Badeværelse</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/gallery-3.svg" alt="Placeholder projekt 3">
+                        <figcaption>Tilbygning</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/gallery-4.svg" alt="Placeholder projekt 4">
+                        <figcaption>Totalrenovering</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/gallery-5.svg" alt="Placeholder projekt 5">
+                        <figcaption>Badeværelse</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/gallery-6.svg" alt="Placeholder projekt 6">
+                        <figcaption>Tilbygning</figcaption>
+                    </figure>
                 </div>
             </div>
         </section>
@@ -113,76 +153,66 @@
         <section class="section testimonials" aria-labelledby="testimonials-title">
             <div class="container">
                 <div class="section-header">
+                    <p class="eyebrow">Anbefalinger</p>
                     <h2 id="testimonials-title">Det siger kunderne</h2>
                     <p>Feedback fra boligejere vi har samarbejdet med i Storkøbenhavn.</p>
                 </div>
-                <div class="cards two">
+                <div class="cards two testimonial-grid">
                     <article class="card testimonial-card">
+                        <div class="stars" aria-hidden="true">★★★★★</div>
                         <p class="quote">“Hurtigt arbejde, fair pris og flot resultat. Kan klart anbefales.”</p>
                         <p class="author">— Thomas, Brønshøj</p>
                     </article>
                     <article class="card testimonial-card">
+                        <div class="stars" aria-hidden="true">★★★★★</div>
                         <p class="quote">“Vi fik totalrenoveret vores badeværelse, og alt gik som aftalt.”</p>
                         <p class="author">— Maria, Valby</p>
                     </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="section about" aria-labelledby="about-title">
-            <div class="container">
-                <div class="section-header">
-                    <h2 id="about-title">Om Brandmade Byggeri</h2>
-                    <p>Et entrepriseteam med fokus på præcision, tydelig kommunikation og gode samarbejder.</p>
-                </div>
-                <div class="about-grid">
-                    <div class="about-text">
-                        <p>
-                            Brandmade Byggeri udfører totalentrepriser og renoveringer i Storkøbenhavn.
-                            Vi arbejder præcist, effektivt og med stor respekt for vores kunders hjem og økonomi.
-                            Vores mål er at levere håndværk, du kan være tryg ved.
-                        </p>
-                    </div>
-                    <div class="about-visual" role="img" aria-label="Team placeholder"></div>
+                    <article class="card testimonial-card">
+                        <div class="stars" aria-hidden="true">★★★★★</div>
+                        <p class="quote">“Struktureret proces, tydelig kommunikation og et resultat vi er stolte af.”</p>
+                        <p class="author">— Sofie, Amager</p>
+                    </article>
                 </div>
             </div>
         </section>
 
         <section class="section contact" id="kontakt" aria-labelledby="contact-title">
-            <div class="container">
-                <div class="section-header">
-                    <h2 id="contact-title">Kontakt</h2>
-                    <p>Fortæl os om din opgave – vi vender hurtigt tilbage.</p>
+            <div class="container contact-grid">
+                <div class="contact-intro">
+                    <p class="eyebrow">Kontakt</p>
+                    <h2 id="contact-title">Få et uforpligtende tilbud</h2>
+                    <p>Fortæl os om din opgave – vi vender typisk tilbage indenfor 24 timer med næste skridt.</p>
+                    <ul class="contact-benefits">
+                        <li>Vi vender typisk tilbage indenfor 24 timer</li>
+                        <li>Fuld gennemsigtighed på pris</li>
+                        <li>Én kontaktperson under hele forløbet</li>
+                    </ul>
+                    <div class="contact-meta">
+                        <p><strong>Telefon:</strong> +45 XX XX XX XX</p>
+                        <p><strong>E-mail:</strong> info@brandmadebyggeri.dk</p>
+                    </div>
                 </div>
                 <div class="contact-card">
-                    <h3>Få et tilbud på din opgave</h3>
-                    <div class="contact-grid">
-                        <form class="contact-form">
-                            <div class="form-group">
-                                <label for="name">Navn</label>
-                                <input type="text" id="name" name="name" placeholder="Dit navn" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="phone">Telefon</label>
-                                <input type="tel" id="phone" name="phone" placeholder="+45" required>
-                            </div>
-                            <div class="form-group full-width">
-                                <label for="description">Beskrivelse af opgave</label>
-                                <textarea id="description" name="description" rows="4" placeholder="Fortæl kort om dit projekt" required></textarea>
-                            </div>
-                            <button type="submit" class="cta primary">Send besked</button>
-                        </form>
-                        <div class="contact-details">
-                            <h3>Har du spørgsmål?</h3>
-                            <p>Vi rådgiver gerne om den bedste løsning for dit projekt.</p>
-                            <p class="phone">Eller ring direkte: <span>+45 XX XX XX XX</span></p>
-                            <ul class="contact-list">
-                                <li>Faste tidsplaner og klare aftaler</li>
-                                <li>Én kontaktperson gennem hele forløbet</li>
-                                <li>Fokus på kvalitet, sikkerhed og oprydning</li>
-                            </ul>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Navn</label>
+                            <input type="text" id="name" name="name" placeholder="Dit navn" required>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+45" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="din@email.dk" required>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="description">Beskrivelse af opgave</label>
+                            <textarea id="description" name="description" rows="4" placeholder="Fortæl kort om dit projekt" required></textarea>
+                        </div>
+                        <button type="submit" class="cta primary">Send besked</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -190,11 +220,18 @@
 
     <footer class="footer">
         <div class="container footer-content">
-            <div class="brand">
+            <div class="brand-group">
                 <span class="brand-name">Brandmade Byggeri</span>
                 <span class="brand-tagline">Totalentrepriser i Storkøbenhavn</span>
             </div>
             <p class="footer-note">Klar kommunikation, faste aftaler og håndværk du kan stole på.</p>
+            <div class="footer-meta">
+                <p>Telefon: +45 XX XX XX XX · E-mail: info@brandmadebyggeri.dk · CVR: XX XX XX XX</p>
+                <div class="footer-links">
+                    <a href="#kontakt">Kontakt</a>
+                    <a href="#">Privatlivspolitik</a>
+                </div>
+            </div>
             <p class="copyright">© 2024 Brandmade Byggeri. Alle rettigheder forbeholdes.</p>
         </div>
     </footer>
