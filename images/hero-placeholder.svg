@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="700" viewBox="0 0 1400 700" fill="none">
+  <rect width="1400" height="700" fill="#0F4251"/>
+  <rect x="80" y="120" width="1240" height="460" rx="14" fill="#1A1A1A" opacity="0.5" stroke="#D3C4A6" stroke-width="4" stroke-dasharray="14 14"/>
+  <text x="700" y="360" text-anchor="middle" fill="#D3C4A6" font-family="Manrope, Arial" font-size="48" font-weight="700">Hero billede placeholder</text>
+</svg>
